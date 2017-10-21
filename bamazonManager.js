@@ -57,6 +57,16 @@ function forSale() {
 			console.log("");
 			console.table(res);
 		});
+	connection.end();
 }
 
 //VIEW LOW INVENTORY
+function lowStock() {
+	var query = connection.query("SELECT product_name AS Products, stock_quantity AS Stock FROM products WHERE stock_quantity < 5",
+		function (err, res, fields) {
+			if (err) throw err;
+			console.log('');
+			console.table(res);
+		});
+	connection.end();
+}
