@@ -2,7 +2,7 @@
 
 ![Andie's Functional Bamazon](https://andiebp.github.io/bamazon/assets/running_bamazon.gif "Andie's Functional Bamazon")
 
-Completed Challenge #1 of Node.js & MySQL Project
+Completed Phase 1 of Node.js & MySQL Project
 
 - [x] Created MySQL Database + Table with specified parameters.
 - [x] Created Node Application displaying items for sale.
@@ -14,7 +14,7 @@ Completed Challenge #1 of Node.js & MySQL Project
 
 Notes ::: :sparkling_heart:
 
-This App was was extremely fun and easily challenging. I want to keep building on it by completing Challenge #2 and Challenge #3 to add extra functionality such as: 
+This App was was extremely fun and easily challenging. I want to keep building on it by completing Phase 2 and Phase 3, to add extra functionality such as: 
 - [ ] Manager View with access to the following menus/functionality: 
 	- [ ] View Products for Sale
 	- [ ] View Low Inventory
