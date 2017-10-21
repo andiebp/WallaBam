@@ -15,7 +15,7 @@ Completed Phase 1 of Node.js & MySQL Project
 Notes ::: :sparkling_heart:
 
 This App was was extremely fun and easily challenging. I want to keep building on it by completing Phase 2 and Phase 3, to add extra functionality such as: 
-- [ ] Manager View with access to the following menus/functionality: 
+- [x] Manager View with access to the following menus/functionality: 
 	- [ ] View Products for Sale
 	- [ ] View Low Inventory
 	- [ ] Add to Inventory
