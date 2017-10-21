@@ -10,14 +10,19 @@ var connection = mysql.createConnection({
 	database: 'bamazonDB'
 });
 
-connection.connect();
+// CONNECTING TO DATABASE
+connection.connect(function (err) {
+	if (err) throw err;
+	managerMenu();
+});
 
+//LOADING MANAGER MENU
 function managerMenu() {
 	inquirer
 		.prompt({
 			name: "action",
 			type: "list",
-			message: "Which menu do you want to enter?",
+			message: "Which menu do you want to access?",
 			choices: [
 			"View Products for Sale",
 			"View Low Inventory",
@@ -39,7 +44,19 @@ function managerMenu() {
 				case "Add New Product":
 					addProduct();
 					break;
-
 			}
 		});
+
 }
+
+//VIEW PRODUCTS FOR SALE
+function forSale() {
+	var query = connection.query("SELECT product_name AS Products FROM products",
+		function (err, res, fields) {
+			if (err) throw err;
+			console.log("");
+			console.table(res);
+		});
+}
+
+//VIEW LOW INVENTORY
