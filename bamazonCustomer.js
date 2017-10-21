@@ -79,7 +79,8 @@ function purchase(ids, quantity) {
 
 				if (qtyWanted > stockAvail) {
 					//Don't have enough 
-					console.log("Insufficient Quantity!")
+					console.log("Insufficient Quantity!");
+					connection.end();
 				} else {
 					//Can fulfill order
 					fulfillOrder(answer.id, qtyWanted, stockAvail, price);
