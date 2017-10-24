@@ -16,8 +16,8 @@ Notes ::: :sparkling_heart:
 
 This App was was extremely fun and easily challenging. I want to keep building on it by completing Phase 2 and Phase 3, to add extra functionality such as: 
 - [x] Manager View with access to the following menus/functionality: 
-	- [ ] View Products for Sale
-	- [ ] View Low Inventory
+	- [x] View Products for Sale
+	- [x] View Low Inventory
 	- [ ] Add to Inventory
 	- [ ] Add New Product
 - [ ] Supervisor View with access to the following menus and database:

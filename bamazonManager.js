@@ -58,6 +58,7 @@ function forSale() {
 			console.table(res);
 		});
 	connection.end();
+	managerMenu();
 }
 
 //VIEW LOW INVENTORY
@@ -69,4 +70,5 @@ function lowStock() {
 			console.table(res);
 		});
 	connection.end();
+	managerMenu();
 }
