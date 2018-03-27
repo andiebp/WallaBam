@@ -1,6 +1,6 @@
 #Andie's Bamazon
 
-![Andie's Functional Bamazon](https://andiebp.github.io/bamazon/assets/running_bamazon.gif "Andie's Functional Bamazon")
+![Andie's Functional Bamazon](https://andiebp.github.io/WallaBam/assets/running_bamazon.gif "Andie's Functional Bamazon")
 
 Completed Phase 1 of Node.js & MySQL Project
 
@@ -14,8 +14,8 @@ Completed Phase 1 of Node.js & MySQL Project
 
 Notes ::: :sparkling_heart:
 
-This App was was extremely fun and easily challenging. I want to keep building on it by completing Phase 2 and Phase 3, to add extra functionality such as: 
-- [x] Manager View with access to the following menus/functionality: 
+This App was was extremely fun and easily challenging. I want to keep building on it by completing Phase 2 and Phase 3, to add extra functionality such as:
+- [x] Manager View with access to the following menus/functionality:
 	- [x] View Products for Sale
 	- [x] View Low Inventory
 	- [ ] Add to Inventory
@@ -29,6 +29,3 @@ This App was was extremely fun and easily challenging. I want to keep building o
 		- [ ] product_sales
 	- [ ] View Product Sales by Department
 	- [ ] Create New Department
-	
-
-
